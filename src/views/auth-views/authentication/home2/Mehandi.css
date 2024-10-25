@@ -1,0 +1,150 @@
+.mehendi-card {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  height: 465px; /* Fixed height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.mehendi-card {
+  position: relative; /* Make sure the card has relative positioning */
+}
+
+.for_ribbon{
+  top: 30px; 
+  left: 0; 
+  position: absolute !important; 
+  z-index: 1;
+}
+
+.custom_span_one{
+  font-family: "Mulish";
+font-size: 14px;
+color:FFFFFFCC ;
+font-weight: 400;
+line-height: 19.6px;
+text-align: left;
+}
+.mehendi-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+:where(.css-dev-only-do-not-override-5wsri9).ant-ribbon.ant-ribbon-color-magenta {
+  padding: 8px 12px 8px 12px; 
+}
+:where(.css-dev-only-do-not-override-5wsri9).ant-ribbon.ant-ribbon-color-gold {
+  padding: 8px 12px;
+  background-color: #EBD619 !important; /* Force this color */
+}
+
+
+.mehendi-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.28);
+  color: #fff;
+  text-align: left; /* Align text to the left */
+}
+
+
+
+.mehendi-content .location {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.price-rating {
+  display: flex;
+  justify-content: space-between; /* Space between price and button */
+  align-items: center;
+  font-size: 14px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.enquiry-button {
+  width: 100px; /* Set a fixed width for the button */
+  background-color: #ec407a;
+  border-color: #ec407a;
+  margin-left: 10px; /* Space between price and button */
+}
+
+.enquiry-button:hover {
+  background-color: #d81b60;
+  border-color: #d81b60;
+}
+
+.mehendi-grid {
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+}
+
+.load-more-button {
+  margin-top: 20px;
+}
+
+.text-center {
+  text-align: center;
+  width: 100%;
+}
+
+.mt-4 {
+  margin-top: 20px;
+}
+
+/* Badge styles */
+.badge-text {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px; /* Padding as per your requirement */
+  gap: 4px;
+  border-radius: 0px 4px 4px 0px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Background color for visibility */
+}
+:where(
+    .css-dev-only-do-not-override-5wsri9
+  ).ant-ribbon.ant-ribbon-placement-end {
+  inset: unset;
+}
+
+.mehendi-content{
+/* margin-left: 10px;
+margin-right: 10px; */
+margin: 15px;
+}
+.custom_h3{
+  font-family: "Mulish";
+font-size: 18px;
+font-weight: 500;
+line-height: 25.2px;
+text-align: left;
+color: #FFFFFF;
+
+}
+.custom_text{
+  font-family: "Mulish";
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+color: #FFFFFFCC;
+
+
+}

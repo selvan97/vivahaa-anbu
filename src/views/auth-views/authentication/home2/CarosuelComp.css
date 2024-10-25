@@ -1,0 +1,121 @@
+.couples-carousel {
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+}
+.carousel-indicators [data-bs-target]{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.carousel-title {
+  font-family: "Mulish";
+font-size: 56px;
+font-weight: 400;
+line-height: 78.4px;
+text-align: left;
+
+}
+
+.highlight {
+  
+  color: #F95C55;
+  font-family: "Mulish";
+font-size: 56px;
+font-weight: 700;
+line-height: 78.4px;
+text-align: left;
+
+}
+
+.carousel-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 26px;
+  height: 344px;
+}
+
+.carousel-img {
+  width: 175px;
+  height: 344px;
+  border-radius: 10px;
+}
+
+.carousel-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.previous .carousel-icon {
+  left: 20px;
+}
+
+.next .carousel-icon {
+  right: 20px;
+}
+
+.carousel-main-content {
+  width: 100%;
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+  align-items: center;
+}
+.custom_testo{
+ height: 344px;
+}
+.custom_ditto{
+  display: flex;
+  align-items: center;
+}
+.custom_manger{
+  text-align: left;
+}
+
+.main-story-img {
+width: 284px;
+}
+.main-story-img img {
+  width: 284px;
+  }
+
+
+.testimonial {
+  background-color: #fbeaec;
+  padding: 30px;
+  margin-right: 20px;
+  border-radius: 10px;
+  height: inherit;
+}
+
+.testimonial-text {
+  font-family: "Mulish";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+}
+.custom_center{
+  display: flex;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color:#FF007F ;
+  height: 2rem;
+  width: 2rem;
+  color: white;
+  border-radius: 50%;
+}
+.carousel-control-next, .carousel-control-prev{
+  opacity: unset;
+}

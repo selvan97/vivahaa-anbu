@@ -9,6 +9,7 @@ import { THEME_CONFIG } from "./configs/AppConfig";
 import "./lang";
 import "../node_modules/slick-carousel/slick/slick.css";
 import "../node_modules/slick-carousel/slick/slick-theme.css";
+import Services from "../src/views/auth-views/authentication/home2/Home2"
 
 const themes = {
   dark: `${process.env.PUBLIC_URL}/css/dark-theme.css`,
@@ -25,7 +26,8 @@ function App() {
             defaultTheme={THEME_CONFIG.currentTheme}
             insertionPoint="styles-insertion-point"
           >
-            <Layouts />
+            <Services/>
+            {/* <Layouts /> */}
           </ThemeSwitcherProvider>
         </BrowserRouter>
       </Provider>
